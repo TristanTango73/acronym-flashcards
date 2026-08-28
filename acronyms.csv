@@ -1,3 +1,42 @@
 acronym,full_name,description
-JSON, JavaScript Object Notation, A lightweight format for storing and transporting data.
+ACS,Access Control Systems,
+AFH,Adaptive Frequency Hopping,
+ALE,Annualized Loss Expectancy,ALE = SLE * ARO
 API,Application Programming Interface,A set of rules that allows different software applications to communicate with each other.
+ARO,Annualized Rate of Occurrance,An estimate of how often a threat would be successful in exploiting a vulnerability.
+AV,Asset Value,
+BCP,Business Continuity Plan,The capability of an organization to continue the delivery of products or services following a disruptive incident.
+CASB,Cloud Access Security Broker,Placed between and organisation's user and clousd service providers.
+CCE,Common Configuration Enumeration,
+CDI,Constrained Data Item,
+CDN,Content Delivery Network,A geographically distributed network of proxy servers and corresponding data centers.
+CI/CD,Continuous Integration Continuous Delivery,
+CPE,Common Platform Enumeration,
+CVE,Common Vulnerabilities and Exposures,A reference method for publicly known information-security vulnerabilities and exposures.
+CVSS,Common Vulnerability Scoring System,An open framework for rating the severity of security vulnerabilities in computing systems.
+DAST,Dynamic Application Security Testing,
+DLP,Data Loss Prevention,Detects the unauthorized transmission or disclosure of sensitive data and prevents their occurrence.
+EDR,Endpoint Detection and Response,Continually monitors endpoints to mitigate malicious cyber threats.
+EF,Exposure Factor,The subjective potential percentage of loss to a specific asset if a specific threat is realized.
+FHSS,Frequency Hopping Spread Spectrum,A method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies.
+FIM,Federated Identity Management,
+GDPR,General Data Protection Regulation,Data protection framework applying to the European Union.
+grep,Global Regular Expression Print,Designed to search through text input for lines that match a specified pattern.
+HIPAA,Health Insurance Portability and Accountability Act,
+HSM,Hardware Security Module,
+IaC,Infrastructure as Code,
+IdP,Identity Provider,A service that stores and manages user identities.
+JSON,JavaScript Object Notation,A lightweight format for storing and transporting data.
+OAuth,Open Authorization,
+OT,Operational Technology,Hardware and software used to monitor control and automate physical processes in industrial settings.
+PoP,Point of Presence,
+REST,Representational State Transfer,
+RMF,Risk Management Framework,
+RPA,Robotic Process Automation,Employing of software "bots" to emulate human actions within digital environments.
+SAML,Secure Access Markup Language,
+SCIM,System for Cross-domain Identity Management,An open standard protocol designed to simplify the management of user identities.
+SOC,Security Operations Center,
+SOC,Service Organization Controls,
+VNC,Virtual Network Computing,A graphical desktop-sharing system.
+VPC,Virtual Private Cloud,Isolates computing resources from other computing resources within a public cloud.
+XML,eXtensible Markup Language,
