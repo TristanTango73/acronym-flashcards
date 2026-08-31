@@ -11,22 +11,28 @@ CCE,Common Configuration Enumeration,
 CDI,Constrained Data Item,
 CDN,Content Delivery Network,A geographically distributed network of proxy servers and corresponding data centers.
 CI/CD,Continuous Integration Continuous Delivery,
+CISA,Cybersecurity and Infrastructure Security Agency,A U.S. government agency responsible for cybersecurity and information technology infrastructure protection.
 CPE,Common Platform Enumeration,
+CSV,Comma Separated Values,
 CVE,Common Vulnerabilities and Exposures,A reference method for publicly known information-security vulnerabilities and exposures.
 CVSS,Common Vulnerability Scoring System,An open framework for rating the severity of security vulnerabilities in computing systems.
 DAST,Dynamic Application Security Testing,
 DLP,Data Loss Prevention,Detects the unauthorized transmission or disclosure of sensitive data and prevents their occurrence.
 EDR,Endpoint Detection and Response,Continually monitors endpoints to mitigate malicious cyber threats.
 EF,Exposure Factor,The subjective potential percentage of loss to a specific asset if a specific threat is realized.
+FPU,Floating Point Unit,Colloquially known as a math coprocessor, it is a part of a computer system specially designed to carry out operations on floating-point numbers.
 FHSS,Frequency Hopping Spread Spectrum,A method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies.
 FIM,Federated Identity Management,
 GDPR,General Data Protection Regulation,Data protection framework applying to the European Union.
 grep,Global Regular Expression Print,Designed to search through text input for lines that match a specified pattern.
 HIPAA,Health Insurance Portability and Accountability Act,
 HSM,Hardware Security Module,
+IAM,Identity and Access Management,A framework of policies and technologies to ensure that the right users have the appropriate access to technology resources.
 IaC,Infrastructure as Code,
 IdP,Identity Provider,A service that stores and manages user identities.
+IoT,Internet of Things,Physical objects embedded with sensors, processing ability, software, etc., which connect and exchange data with other devices over the Internet.
 JSON,JavaScript Object Notation,A lightweight format for storing and transporting data.
+NIST,National Institute of Standards and Technology,A U.S. agency whose mission is to promote American innovation and industrial competitiveness.
 OAuth,Open Authorization,
 OT,Operational Technology,Hardware and software used to monitor control and automate physical processes in industrial settings.
 PoP,Point of Presence,
@@ -39,4 +45,6 @@ SOC,Security Operations Center,
 SOC,Service Organization Controls,
 VNC,Virtual Network Computing,A graphical desktop-sharing system.
 VPC,Virtual Private Cloud,Isolates computing resources from other computing resources within a public cloud.
+VPN,Virtual Private Network,An overlay network using virtualization to extend a private network across a public network, via the use of encryption and tunneling protocols.
+VRF,Virtual Routing and Forwarding,A technology that allows multiple instances of a routing table to co-exist within the same router at the same time.
 XML,eXtensible Markup Language,
