@@ -24,8 +24,10 @@ FPU,Floating Point Unit,Colloquially known as a math coprocessor, it is a part o
 FHSS,Frequency Hopping Spread Spectrum,A method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies.
 FIM,Federated Identity Management,
 GDPR,General Data Protection Regulation,Data protection framework applying to the European Union.
+GRC,"Governance, Risk, and Compliance",A holistic approach organizations use to meet regulatory requirements while operating effectively.
 grep,Global Regular Expression Print,Designed to search through text input for lines that match a specified pattern.
 HIPAA,Health Insurance Portability and Accountability Act,
+HITRUST,Health Information Trust Alliance,An organization that develops cybersecurity, privacy, and risk management frameworks and certifications.
 HSM,Hardware Security Module,
 IAM,Identity and Access Management,A framework of policies and technologies to ensure that the right users have the appropriate access to technology resources.
 IaC,Infrastructure as Code,
