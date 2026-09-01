@@ -36,7 +36,7 @@ IoT,Internet of Things,Physical objects embedded with sensors, processing abilit
 JSON,JavaScript Object Notation,A lightweight format for storing and transporting data.
 MFA,Multi-Factor Authentication,A security method requiring users to provide two or more authentication factors before gaining access.
 NIST,National Institute of Standards and Technology,A U.S. agency whose mission is to promote American innovation and industrial competitiveness.
-NIST CSF,NIST Cybersecurity Framework,A risk-based cybersecurity framework organized around six functions: Govern, Identify, Protect, Detect, Respond, and Recover.
+NIST CSF,NIST Cybersecurity Framework,"A risk-based cybersecurity framework organized around six functions: Govern, Identify, Protect, Detect, Respond, and Recover."
 OAuth,Open Authorization,
 OT,Operational Technology,Hardware and software used to monitor control and automate physical processes in industrial settings.
 PoP,Point of Presence,
