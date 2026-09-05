@@ -1,8 +1,27 @@
 import csv
 import random
 import os
+import textwrap
 
-# 1. Load the flashcards from CSV
+CARD_WIDTH = 60  # Width of the flashcard display
+
+
+
+# 1. Create a whole-word text wrapping function
+def print_wrapped_description(text, width=CARD_WIDTH):
+    """Print DESCRIPTION and wrap text so whole words move to the next line."""
+    label = "DESCRIPTION: "
+    wrapper = textwrap.TextWrapper(
+        width=width,
+        initial_indent=label,           # first line starts with the label
+        subsequent_indent=" " * len(label),  # extra lines line up under the text
+        break_long_words=True,          # only if one word is longer than the line
+        break_on_hyphens=True,          # may break after a hyphen already in the word
+    )
+    print(wrapper.fill(text))
+
+
+# 2. Load the flashcards from CSV
 def load_flashcards(filename="acronyms.csv"):
     flashcards = []
     with open(filename, mode="r", encoding="utf-8") as file:
@@ -15,7 +34,8 @@ def load_flashcards(filename="acronyms.csv"):
             })
     return flashcards
 
-# 2. Enter to continue or Esc to go back to menu
+
+# 3. Enter to continue or Esc to go back to menu
 def read_enter_or_esc():
     """
     Wait for one key.
@@ -48,7 +68,8 @@ def read_enter_or_esc():
         finally:
             termios.tcsetattr(fd, termios.TCSADRAIN, old)
 
-# 3. Look up a flashcard by acronym
+
+# 4. Look up a flashcard by acronym
 def lookup_acronym(flashcards):
     """Find a card when the user already knows the acronym."""
     query = input("Type the acronym: ").strip()
@@ -69,33 +90,36 @@ def lookup_acronym(flashcards):
     for card in matches:
         show_full_card(card)
 
-# 4. Show a single flashcard with the option to reveal or go back to menu
+
+# 5. Show a single flashcard with the option to reveal or go back to menu
 def show_card(card, number=None, total=None):
-    print("\n" + "=" * 50)
+    print("\n" + "=" * CARD_WIDTH)
     if number is not None and total is not None:
         print(f"Card {number} of {total}")
-    print(f"ACRONYM: {card['acronym']}")
+    print(f"ACRONYM:     {card['acronym']}")
 
     if overwrite_line("ENTER = reveal     ESC = menu") == "esc":
         return "esc"
     
-    print(f"FULL NAME: {card['full_name']}")
-    print(f"DESCRIPTION: {card['description']}")
-    print("=" * 50)
+    print(f"FULL NAME:   {card['full_name']}")
+    print_wrapped_description(card["description"])
+    print("=" * CARD_WIDTH)
 
     return overwrite_line("ENTER = next card     ESC = menu")
 
-# 5. Show a full single flashcard without options
+
+# 6. Show a full single flashcard without options
 def show_full_card(card):
     """Show every field at once. No Enter/Esc options."""
-    print("\n" + "=" * 50)
+    print("\n" + "=" * CARD_WIDTH)
     print(f"ACRONYM:     {card['acronym']}")
     print(f"FULL NAME:   {card['full_name']}")
-    print(f"DESCRIPTION: {card['description']}")
-    print("=" * 50)
+    print_wrapped_description(card["description"])
+    print("=" * CARD_WIDTH)
     input("Press ENTER to continue...")
 
-# 6. Clear the hint line
+
+# 7. Clear the hint line
 def overwrite_line(text):
     """Print text, stay on the line, then erase it after the keypress."""
     print(text, end="", flush=True)
@@ -103,7 +127,8 @@ def overwrite_line(text):
     print("\r" + " " * len(text) + "\r", end="", flush=True)
     return action
 
-# 7. Main program loop
+
+# 8. Main program loop
 def main():
     if not os.path.exists("acronyms.csv"):
         print("Error: acronyms.csv not found!")

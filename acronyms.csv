@@ -1,44 +1,50 @@
 acronym,full_name,description
-ACS,Access Control Systems,
-AFH,Adaptive Frequency Hopping,
+ACS,Access Control Systems,"Uses digital credentials, controllers, and electronic locks to regulate access to physical spaces instead of traditional metal keys."
+AFH,Adaptive Frequency Hopping,Communicating devices continuously monitor their environment for interference and adjust the channel map to address it.
 ALE,Annualized Loss Expectancy,ALE = SLE * ARO
 API,Application Programming Interface,A set of rules that allows different software applications to communicate with each other.
 ARO,Annualized Rate of Occurrance,An estimate of how often a threat would be successful in exploiting a vulnerability.
-AV,Asset Value,
+AV,Asset Value,"Represents the total value of an asset, calculated based on the potential financial impact of a security incident—crucial for risk management and security assessments."
 BCP,Business Continuity Plan,The capability of an organization to continue the delivery of products or services following a disruptive incident.
-CASB,Cloud Access Security Broker,Placed between and organisation's user and clousd service providers.
-CCE,Common Configuration Enumeration,
-CDI,Constrained Data Item,
+CASB,Cloud Access Security Broker,Placed between and organisation's user and cloud service providers.
+CCE,Common Configuration Enumeration,“Provides unique identifiers for system configuration issues, facilitating fast and accurate correlation of configuration data across multiple information sources and tools.”
+CDI,Constrained Data Item,A protected piece of data in the Clark-Wilson integrity model whose accuracy and completeness must be strictly maintained.
 CDN,Content Delivery Network,A geographically distributed network of proxy servers and corresponding data centers.
-CI/CD,Continuous Integration Continuous Delivery,
+CD,Continuous Delivery,"A 2 part process that refers to the integration, testing, and delivery of code changes."
+CI,Continuous Integration,The practice of automatically and frequently integrating code changes into a shared source code repository.
+CI/CD,Continuous Integration and Continuous Delivery/Deployment,A standard that aims to streamline and accelerate the software development lifecycle.
 CISA,Cybersecurity and Infrastructure Security Agency,A U.S. government agency responsible for cybersecurity and information technology infrastructure protection.
-CPE,Common Platform Enumeration,
-CSV,Comma Separated Values,
+CPE,Common Platform Enumeration,“A standardized, machine-readable method for naming and identifying classes of applications, operating systems, and hardware devices within an enterprise’s computing assets.”
+CSV,Comma-Separated Values,“A plain-text file format used to store tabular data, in which each line represents a row and individual values are separated by commas.”
 CVE,Common Vulnerabilities and Exposures,A reference method for publicly known information-security vulnerabilities and exposures.
 CVSS,Common Vulnerability Scoring System,An open framework for rating the severity of security vulnerabilities in computing systems.
 DAST,Dynamic Application Security Testing,
-DLP,Data Loss Prevention,Detects the unauthorized transmission or disclosure of sensitive data and prevents their occurrence.
+DLP,Data Loss Prevention,Detects the unauthorized transmission or disclosure of sensitive data and prevents its occurrence.
 EDR,Endpoint Detection and Response,Continually monitors endpoints to mitigate malicious cyber threats.
+ERP,Enterprise Resource Planning,"Business management software used by an organization to collect, store, manage, and interpret data from many business activities."
 EF,Exposure Factor,The subjective potential percentage of loss to a specific asset if a specific threat is realized.
-FPU,Floating Point Unit,Colloquially known as a math coprocessor, it is a part of a computer system specially designed to carry out operations on floating-point numbers.
+FPU,Floating Point Unit,"Colloquially known as a math coprocessor, it is a part of a computer system specially designed to carry out operations on floating-point numbers."
 FHSS,Frequency Hopping Spread Spectrum,A method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies.
 FIM,Federated Identity Management,
 GDPR,General Data Protection Regulation,Data protection framework applying to the European Union.
 GRC,"Governance, Risk, and Compliance",A holistic approach organizations use to meet regulatory requirements while operating effectively.
 grep,Global Regular Expression Print,Designed to search through text input for lines that match a specified pattern.
 HIPAA,Health Insurance Portability and Accountability Act,
-HITRUST,Health Information Trust Alliance,An organization that develops cybersecurity, privacy, and risk management frameworks and certifications.
+HITRUST,Health Information Trust Alliance,"An organization that develops cybersecurity, privacy, and risk management frameworks and certifications."
 HSM,Hardware Security Module,
 IAM,Identity and Access Management,A framework of policies and technologies to ensure that the right users have the appropriate access to technology resources.
 IaC,Infrastructure as Code,
 IdP,Identity Provider,A service that stores and manages user identities.
-IoT,Internet of Things,Physical objects embedded with sensors, processing ability, software, etc., which connect and exchange data with other devices over the Internet.
+IoT,Internet of Things,"Physical objects embedded with sensors, processing ability, software, etc., which connect and exchange data with other devices over the Internet."
+ISMS,Information Security Management Systems,
+ISO 27001,Information Security Policy,“A standard that provides guidance for establishing, implementing, maintaining, and continually improving an information security management system.”
 JSON,JavaScript Object Notation,A lightweight format for storing and transporting data.
 MFA,Multi-Factor Authentication,A security method requiring users to provide two or more authentication factors before gaining access.
 NIST,National Institute of Standards and Technology,A U.S. agency whose mission is to promote American innovation and industrial competitiveness.
 NIST CSF,NIST Cybersecurity Framework,"A risk-based cybersecurity framework organized around six functions: Govern, Identify, Protect, Detect, Respond, and Recover."
 OAuth,Open Authorization,
 OT,Operational Technology,Hardware and software used to monitor control and automate physical processes in industrial settings.
+PCI DSS,Payment Card Industry Data Security Standard,“A set of security standards designed to ensure that companies that store, process, or transmit credit or debit card information maintain a secure environment.”
 PoP,Point of Presence,
 REST,Representational State Transfer,
 RMF,Risk Management Framework,
@@ -49,6 +55,6 @@ SOC,Security Operations Center,
 SOC,Service Organization Controls,
 VNC,Virtual Network Computing,A graphical desktop-sharing system.
 VPC,Virtual Private Cloud,Isolates computing resources from other computing resources within a public cloud.
-VPN,Virtual Private Network,An overlay network using virtualization to extend a private network across a public network, via the use of encryption and tunneling protocols.
+VPN,Virtual Private Network,"An overlay network using virtualization to extend a private network across a public network, via the use of encryption and tunneling protocols."
 VRF,Virtual Routing and Forwarding,A technology that allows multiple instances of a routing table to co-exist within the same router at the same time.
 XML,eXtensible Markup Language,
