@@ -1,0 +1,3 @@
+acronym,full_name,description
+ALE,Annualized Loss Expectancy,ALE = SLE * ARO
+ARO,Annualized Rate of Occurrance,An estimate of how often a threat would be successful in exploiting a vulnerability.
