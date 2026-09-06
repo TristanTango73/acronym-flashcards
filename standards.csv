@@ -1,4 +1,15 @@
 acronym,full_name,description
+800-53,NIST 800-53,NIST SP 800-53 is a comprehensive catalog of security and privacy controls used by U.S. federal systems and widely adopted elsewhere.
+800-37,NIST 800-37 RMF,
 GDPR,General Data Protection Regulation,Data protection framework applying to the European Union.
 HIPAA,Health Insurance Portability and Accountability Act,
-NIST,National Institute of Standards and Technology,A U.S. agency whose mission is to promote American innovation and industrial competitiveness.
+NIST,National Institute of Standards and Technology,NIST SP 800-53 is a comprehensive catalog of security and privacy controls used by U.S. federal systems and widely adopted elsewhere.
+ISO,International Organization for Standardization,“ISO/IEC 27001, titled Information Security, Cybersecurity, and Privacy Protection, specifies requirements for implementing, maintaining, and continually improving an ISMS.”
+27001,ISO/IEC 27001,“Also titled Information Security, Cybersecurity, and Privacy Protection, specifies requirements for implementing, maintaining, and continually improving an ISMS.”
+SP,Special Publication,
+ISMS,Information Security Management System,
+CSF,Cybersecurity Framework,“This NIST high-level, U.S. government cybersecurity framework is organized around functions that helps organizations assess, prioritize, and communicate cybersecurity risk-management outcomes.”
+CIS,Center for Internet Security,“The CIS Critical Security Controls are a prioritized set of cybersecurity best practices that help organizations defend against common cyberattacks through practical, action-oriented guidance.”
+PCI DSS,Payment Card Industry Data Security Standard,“A set of security standards designed to ensure that companies that store, process, or transmit credit or debit card information maintain a secure environment.”
+SOC 2,System and Organization Controls 2,“An attestation report that evaluates based on a Type whether a service organization’s controls are designed and operating effectively to protect customer data, based on criteria developed by the AICPA.”
+AICPA,American Institute of Certified Public Accountants,“The AICPA’s Trust Services Criteria provide a framework that independent CPA firms use to audit and report on a service organization’s security controls.”
