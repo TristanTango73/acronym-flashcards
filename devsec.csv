@@ -1,0 +1,12 @@
+acronym,full_name,description
+API,Application Programming Interface,A set of rules that allows different software applications to communicate with each other.
+CD,Continuous Delivery/Deployment,"A 2 part process that refers to the integration, testing, and delivery of code changes."
+CI,Continuous Integration,The practice of automatically and frequently integrating code changes into a shared source code repository.
+CI/CD,Continuous Integration and Continuous Delivery/Deployment,A standard that aims to streamline and accelerate the software development lifecycle.
+CSV,Comma-Separated Values,"A plain-text file format used to store tabular data, in which each line represents a row and individual values are separated by commas."
+DAST,Dynamic Application Security Testing,A black-box security testing tool that evaluates a running application externally to identify runtime vulnerabilities.
+FPU,Floating Point Unit,"Colloquially known as a math coprocessor, it is a part of a computer system specially designed to carry out operations on floating-point numbers."
+JSON,JavaScript Object Notation,A lightweight format for storing and transporting data.
+REST,Representational State Transfer,"REST is an architectural style for web services using APIs that define constraints for distributed, Internet-scale hypermedia systems commonly using HTTP methods such as GET, POST, PUT, and DELETE."
+XML,eXtensible Markup Language,"A markup language and file format used to store, structure, transmit, and reconstruct data between systems, focusing on describing and organizing data rather than displaying it."
+

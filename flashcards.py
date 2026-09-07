@@ -7,10 +7,12 @@ CARD_WIDTH = 60                         # Width of the flashcard display
 TOP_MARGIN =  3                         # Number of blank lines at the top of the screen
 
 BUILTIN_DECKS = [
-    ("IT Acronyms", "acronyms.csv"),
-    ("Security Management", "management.csv"),
-    ("Standards & Frameworks", "standards.csv"),
     ("Certifications", "certifications.csv"),
+    ("Cybersecurity", "cybersec.csv"),
+    ("DevSecOps", "devsec.csv"),
+    ("IS Engineering", "engineer.csv"),
+    ("IS Management", "management.csv"),
+    ("Standards/Frameworks", "standards.csv"),
 ]
 
 
@@ -279,7 +281,6 @@ def main():
             found = False
             for card in flashcards:
                 if card["acronym"].upper() == acronym:
-                    clear_screen()
                     show_full_card(card)    # full card, no key options
                     found = True
                     break

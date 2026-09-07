@@ -1,1 +1,19 @@
 acronym,full_name,description
+FHSS,Frequency Hopping Spread Spectrum,A method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies.
+FIM,Federated Identity Management,"A common set of policies, practices, and protocols that manage and verify the identities of users and devices accessing applications and resources across organizations."
+grep,Global Regular Expression Print,Designed to search through text input for lines that match a specified pattern.
+HSM,Hardware Security Module,"A physical device that securely manages cryptographic keys and performs encryption, decryption, digital-signature, and authentication functions."
+IAM,Identity and Access Management,A framework of policies and technologies to ensure that the right users have the appropriate access to technology resources.
+IaC,Infrastructure as Code,"The practice of defining, deploying, and managing infrastructure through code and configuration files rather than manual setup."
+IdP,Identity Provider,A service that stores and manages user identities.
+MFA,Multi-Factor Authentication,A security method requiring users to provide two or more authentication factors before gaining access.
+OAuth,Open Authorization,An authorization framework that lets users grant applications limited access to resources through access tokens without sharing passwords.
+PoP,Point of Presence,"A physical location where installed network infrastructure serves as an interface between communicating entities, allowing users to connect to a service provider’s network or cloud services."
+SAML,Secure Access Markup Language,An open XML-based standard for exchanging authentication and authorization data between an identity provider and a service provider.
+SCIM,System for Cross-domain Identity Management,An open standard protocol designed to simplify the management of user identities.
+VNC,Virtual Network Computing,A graphical desktop-sharing system that enables users to view and remotely control another computer over a network.
+RFB,Remote Frame Buffer,"An open, simple protocol used by Virtual Network Computing (VNC) to transmit a remote computer’s screen and relay keyboard and mouse input between systems."
+VPC,Virtual Private Cloud,"A logically isolated, on-demand pool of shared cloud resources within a public cloud provider’s infrastructure, allowing organizations to run servers, databases, and applications in an isolated secure virtual network."
+VPN,Virtual Private Network,"An overlay network using virtualization to extend a private network across a public network, via the use of encryption and tunneling protocols."
+VRF,Virtual Routing and Forwarding,A technology that allows multiple instances of a routing table to co-exist within the same router at the same time.
+

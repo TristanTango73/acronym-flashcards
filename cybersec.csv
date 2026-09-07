@@ -1,0 +1,6 @@
+acronym,full_name,description
+OT,Operational Technology,Hardware and software used to monitor control and automate physical processes in industrial settings.
+SOC,Security Operations Center,"A security operations center (SOC) is a dedicated site and centralized team that monitors, detects, investigates, and responds to cybersecurity threats across an organization’s IT environment."
+CVE,Common Vulnerabilities and Exposures,A reference method for publicly known information-security vulnerabilities and exposures.
+CVSS,Common Vulnerability Scoring System,An open framework for rating the severity of security vulnerabilities in computing systems.
+

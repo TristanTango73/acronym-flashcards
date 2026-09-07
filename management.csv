@@ -5,5 +5,9 @@ AV,Asset Value,"Represents the total value of an asset, calculated based on the 
 BCP,Business Continuity Plan,The capability of an organization to continue the delivery of products or services following a disruptive incident.
 ERP,Enterprise Resource Planning,"Business management software used by an organization to collect, store, manage, and interpret data from many business activities."
 EF,Exposure Factor,The subjective potential percentage of loss to a specific asset if a specific threat is realized.
+ERP,Enterprise Resource Planning,"Business management software used by an organization to collect, store, manage, and interpret data from many business activities."
+EF,Exposure Factor,The subjective potential percentage of loss to a specific asset if a specific threat is realized.
+GRC,"Governance, Risk, and Compliance",A holistic approach organizations use to meet regulatory requirements while operating effectively.
+
 
 
